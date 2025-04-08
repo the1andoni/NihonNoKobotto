@@ -95,7 +95,7 @@ class Commands(commands.Cog):
         uptime = datetime.datetime.now() - datetime.datetime.fromtimestamp(psutil.boot_time())
 
         embed = discord.Embed(title=":information_source: BOT INFORMATION :information_source:", color=0xf82c00)
-        embed.add_field(name="Developer(s)", value="YoungGreed", inline=False)
+        embed.add_field(name="Developer(s)", value="The1AndOni", inline=False)
         embed.add_field(name="Bot version", value="v1_5", inline=False)
         embed.add_field(name="Servers", value=str(len(self.bot.guilds)), inline=False)
         embed.add_field(name="Bot RAM usage", value=f"{ram_usage:.2f} MB", inline=False)
